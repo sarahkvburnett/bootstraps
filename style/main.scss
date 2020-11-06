@@ -1,0 +1,22 @@
+.jumbotron {
+	background-image: url("../images/boots.jpg");
+	background-size: cover;
+	height: 80vh;
+	color: #fff;
+}
+
+.alert {
+	margin-bottom: 0 !important;
+}
+
+.carousel-item img {
+    max-height: 80vh;
+}
+
+body {
+    padding-bottom: 20vh;
+}
+
+$enable-responsive-font-sizes: true;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
